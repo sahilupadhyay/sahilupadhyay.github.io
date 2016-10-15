@@ -1,0 +1,17 @@
+This zip file contains optimized resources for http://sahilupadhyay.github.io/. The optimized resources are listed below in the format of: 
+filename: url
+
+Note: We only include up to 10 MB of optimized contents. If the
+optimized contents of your page are larger than 10 MB, we list them in
+this file too, with 'NOT INCLUDED' to indicate those URLs require
+further optimization.
+
+css/default.css: http://sahilupadhyay.github.io/css/default.css
+css/layout.css: http://sahilupadhyay.github.io/css/layout.css
+css/media-queries.css: http://sahilupadhyay.github.io/css/media-queries.css
+css/magnific-popup.css: http://sahilupadhyay.github.io/css/magnific-popup.css
+css/fonts.css: http://sahilupadhyay.github.io/css/fonts.css
+css/fontello.css: http://sahilupadhyay.github.io/css/fontello/css/fontello.css
+js/jquery.flexslider.js: http://sahilupadhyay.github.io/js/jquery.flexslider.js
+js/jquery.fittext.js: http://sahilupadhyay.github.io/js/jquery.fittext.js
+js/init.js: http://sahilupadhyay.github.io/js/init.js
