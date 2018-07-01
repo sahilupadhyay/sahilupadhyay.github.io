@@ -50,57 +50,57 @@ ul#nav li.current a{color:#F06000;}
 #resume .date{font:15px/24px 'opensans-regular', sans-serif;margin-top:6px;}
 .bars{width:95%;float:left;padding:0;text-align:left;}
 .bars .skills{margin-top:36px;list-style:none;}
-.bars li{position:relative;margin-bottom:60px;background:#ccc;height:42px;border-radius:3px;}
-.bars li em{font:15px 'opensans-bold', sans-serif;color:#313131;text-transform:uppercase;letter-spacing:2px;font-weight:normal;position:relative;top:-36px;}
-.bar-expand{position:absolute;left:0;top:0;margin:0;padding-right:24px;background:#313131;display:inline-block;height:42px;line-height:42px;border-radius:3px 0 0 3px;}
-.Ionic{width:60%;-moz-animation:Ionic 2s ease;-webkit-animation:Ionic 2s ease;}
+.bars li{position:relative;margin-bottom:50px;background:#ccc;height:24px;border-radius:3px;}
+.bars li em{font:15px 'opensans-bold', sans-serif;color:#313131;text-transform:uppercase;letter-spacing:2px;font-weight:normal;position:relative;top:-30px;}
+.bar-expand{position:absolute;left:0;top:0;margin:0;padding-right:24px;background:#313131;display:inline-block;height:24px;line-height:42px;border-radius:3px 0 0 3px;}
+.Ionic{width:50%;-moz-animation:Ionic 2s ease;-webkit-animation:Ionic 2s ease;}
 .MySQL{width:60%;-moz-animation:Ionic 2s ease;-webkit-animation:Ionic 2s ease;}
-.C_Cpp{width:55%;-moz-animation:C_Cpp 2s ease;-webkit-animation:C_Cpp 2s ease;}
-.Bootstrap{width:50%;-moz-animation:Bootstrap 2s ease;-webkit-animation:Bootstrap 2s ease;}
-.css{width:90%;-moz-animation:css 2s ease;-webkit-animation:css 2s ease;}
+.C_Cpp{width:60%;-moz-animation:C_Cpp 2s ease;-webkit-animation:C_Cpp 2s ease;}
+.Bootstrap{width:65%;-moz-animation:Bootstrap 2s ease;-webkit-animation:Bootstrap 2s ease;}
+.css{width:75%;-moz-animation:css 2s ease;-webkit-animation:css 2s ease;}
 .html5{width:80%;-moz-animation:html5 2s ease;-webkit-animation:html5 2s ease;}
-.jquery{width:50%;-moz-animation:jquery 2s ease;-webkit-animation:jquery 2s ease;}
+.jquery{width:70%;-moz-animation:jquery 2s ease;-webkit-animation:jquery 2s ease;}
 @-moz-keyframes Ionic{0%{width:0px;}
-100%{width:60%;}
+100%{width:50%;}
 }
 @-moz-keyframes MySQL{0%{width:0px;}
 100%{width:60%;}
 }
 @-moz-keyframes C_Cpp{0%{width:0px;}
-100%{width:55%;}
+100%{width:60%;}
 }
 @-moz-keyframes Bootstrap{0%{width:0px;}
-100%{width:80%;}
+100%{width:65%;}
 }
 @-moz-keyframes css{0%{width:0px;}
-100%{width:90%;}
+100%{width:75%;}
 }
 @-moz-keyframes html5{0%{width:0px;}
 100%{width:80%;}
 }
 @-moz-keyframes jquery{0%{width:0px;}
-100%{width:50%;}
+100%{width:70%;}
 }
 @-webkit-keyframes Ionic{0%{width:0px;}
-100%{width:60%;}
+100%{width:50%;}
 }
 @-webkit-keyframes MySQL{0%{width:0px;}
 100%{width:60%;}
 }
 @-webkit-keyframes C_Cpp{0%{width:0px;}
-100%{width:55%;}
+100%{width:60%;}
 }
 @-webkit-keyframes Bootstrap{0%{width:0px;}
-100%{width:50%;}
+100%{width:65%;}
 }
 @-webkit-keyframes css{0%{width:0px;}
-100%{width:90%;}
+100%{width:75%;}
 }
 @-webkit-keyframes html5{0%{width:0px;}
 100%{width:80%;}
 }
 @-webkit-keyframes jquery{0%{width:0px;}
-100%{width:50%;}
+100%{width:70%;}
 }
 #portfolio{background:#ebeeee;padding-top:90px;padding-bottom:60px;}
 #portfolio h1{font:15px/24px 'opensans-semibold', sans-serif;text-transform:uppercase;letter-spacing:1px;text-align:center;margin-bottom:48px;color:#95A3A3;}
