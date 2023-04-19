@@ -1,0 +1,144 @@
+@use "../../styles" as *;
+
+.qualification {
+  background-color: $gray-bg-color;
+  padding: 15rem 0;
+
+  @media (max-width: 1020px) {
+    padding: 8rem 0;
+  }
+
+  h4 {
+    font-size: $text-size;
+    color: $header-color;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: $headings-size;
+    font-family: $title-font;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: $black-shade;
+  }
+  .resume-item {
+    p {
+      font-size: $text-size;
+      font-family: $text-font;
+      color: $text-color;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+
+    ul {
+      li {
+        font-size: $text-size;
+        font-family: $text-font;
+        color: $text-color;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .resume-title {
+    font-size: $hero-text-size;
+    font-family: $title-font;
+    line-height: 1.4;
+    color: #0563bb;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+  }
+
+  .resume-item {
+    padding: 0 0 5px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+
+    h4 {
+      line-height: 18px;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: "Poppins", sans-serif;
+      color: #0563bb;
+      margin-bottom: 10px;
+    }
+
+    h5 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+
+      li {
+        padding-bottom: 10px;
+        text-align: justify;
+      }
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50px;
+      left: -11px;
+      top: 0;
+      background: #fff;
+      border: 2px solid #0563bb;
+    }
+  }
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+
+  h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+    font-size: 3rem;
+    font-family: $title-font;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 120px;
+      height: 1px;
+      background: #ddd;
+      bottom: 1px;
+      left: calc(50% - 60px);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: #0563bb;
+      bottom: 0;
+      left: calc(50% - 20px);
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
