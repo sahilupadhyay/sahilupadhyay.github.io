@@ -1,6 +1,6 @@
 {
   "name": "sahilupadhyay.github.io",
-  "homepage": "https://sahilupadhyay.github.io/sahilupadhyay.github.io",
+  "homepage": "https://sahilupadhyay.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
