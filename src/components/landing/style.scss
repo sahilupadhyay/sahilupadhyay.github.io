@@ -113,7 +113,7 @@
     position: absolute;
     width: 6rem;
     top: 8.7rem;
-    right: 13rem;
+    right: 16rem;
 
     @media (max-width: 900px) {
       right: 3rem;
@@ -126,15 +126,15 @@
     }
 
     @media (max-width: 400px) {
-      right: 3rem;
+      right: 0.5rem;
     }
 
     @media (max-width: 380px) {
-      right: 3rem;
+      right: 0.25rem;
     }
 
     @media (max-width: 375px) {
-      right: 1.7rem;
+      right: 0.25rem;
     }
   }
 }
@@ -232,4 +232,22 @@
       }
     }
   }
+}
+.waving_hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
 }
