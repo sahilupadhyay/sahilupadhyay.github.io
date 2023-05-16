@@ -1,11 +1,9 @@
-import Gymate from "../../images/coindom.png";
-import Raouf from "../../images/coindom.png";
+
 import ProBox from "../ProBox";
-import CarRental from "../../images/coindom.png";
-import CoinDom from "../../images/coindom.png";
+import Spotify from "../../images/spotify.png";
 import './style.scss';
 
-function Projects() {
+export function Projects() {
     return (
         <>
             <section id="projects" className="project">
@@ -15,18 +13,19 @@ function Projects() {
                         <h3>Each project is a unique piece of development 🧩</h3>
                         <div className="projects-grid">
                             <ProBox
-                                title="Car Rental"
-                                img={CarRental}
-                                description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+                                title="Spotify"
+                                img={Spotify}
+                                description="Fetch Spotify Playlists + Control Music playback with the Spotify API, User authentication with Spotify + NextAuth to persist user's logged in state! (Including how to use access & refresh oAuth JWT tokens), Style an awesome responsive UI with Tailwind CSS, using Recoil for state management (when switching playlists and songs)!"
                                 techno1="React"
-                                techno2="SCSS"
-                                code="https://github.com/stefvndev/car-rental"
-                                demo="https://car-rental-ten.vercel.app/"
-                                scrollY="-83%"
+                                techno2="Tailwind CSS"
+                                techno3="SCSS"
+                                code="https://github.com/sahilupadhyay/spotify"
+                                demo="https://spotify-eight-rouge.vercel.app/"
+                                scrollY="-26%"
                                 icon="🚗"
                             />
 
-                            <ProBox
+{/*                            <ProBox
                                 title="coindom"
                                 img={CoinDom}
                                 description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
@@ -62,7 +61,7 @@ function Projects() {
                                 scrollY="-71%"
                                 icon="🛒"
                                 cName="reversed-proj"
-                            />
+                            />*/}
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import AboutMe from "../components/aboutme";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 import Qualification from "../components/qualification";
+import Project from "../components/projects";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
         <Landing />
         <AboutMe />
         <Qualification/>
-        {/*<Projects />*/}
+        <Project />
         <Contact />
         <Footer />
     </>

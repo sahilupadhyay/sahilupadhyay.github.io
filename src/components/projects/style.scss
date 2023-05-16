@@ -1,7 +1,7 @@
 @use "../../styles" as *;
 
 .project {
-  background-color: $gray-bg-color;
+  background-color: $background-color;
   padding: 15rem 0;
 
   @media (max-width: 1020px) {
