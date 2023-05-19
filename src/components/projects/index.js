@@ -1,6 +1,7 @@
 
 import ProBox from "../ProBox";
 import Spotify from "../../images/spotify.png";
+import Promptopia from "../../images/promptopia.png";
 import './style.scss';
 
 export function Projects() {
@@ -25,19 +26,20 @@ export function Projects() {
                                 icon="🚗"
                             />
 
-{/*                            <ProBox
-                                title="coindom"
-                                img={CoinDom}
-                                description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
-                                techno1="React"
-                                techno2="SCSS"
-                                code="https://github.com/stefvndev/coindom-crypto"
-                                demo="https://coindom-crypto-search.vercel.app/"
-                                scrollY="-74%"
-                                icon="🪙"
-                                cName="reversed-proj"
+                            <ProBox
+                              title="Promptopia"
+                              img={Promptopia}
+                              description="Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts."
+                              techno1="React"
+                              techno2="Next.Js"
+                              code="https://github.com/sahilupadhyay/Promptopia"
+                              demo="https://promptopia-blue.vercel.app//"
+                              scrollY="-35%"
+                              icon="🪙"
+                              cName="reversed-proj"
                             />
 
+{/*
                             <ProBox
                                 title="gymate"
                                 img={Gymate}
