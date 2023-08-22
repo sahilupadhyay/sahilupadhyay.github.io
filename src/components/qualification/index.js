@@ -13,19 +13,17 @@ export default function qualification() {
             <p>Tech stack: Angular(10+), Javscript, Typescript, Nx , Rxjs, HTML5, CSS, AWS, Looker SDK, NgRx, Akita</p>
             <ul>
               <li>
-                Developed Personalisation, a migration sandbox, to let customers migrate effortlessly from older application version to the latest one. It
-                implements a library to support both legacy and new API response, allowing clients to interchange APIs basis their feature requirements.
+                Built a migration service which was used to onboard ~90% of existing Acquia customers to the new platform.
               </li>
               <li>
-                Further, optimised application build size by 35%, thereby increasing performance by more than 45%
+                Optimised app build size by 35%, thereby increasing performance by more than 45%.
               </li>
             </ul>
           </div>
           <div className="resume-item">
             <p><strong>Software Engineer</strong> | <small>Apr 2021 - Mar 2022</small></p>
             <ul>
-              <li>Developing the frontend of WhatsApp assistant dashboard which enables business account holders to leverage the WhatsApp API for
-                establishing B2C communication by providing them with a live chat panel
+              <li>Developed the email and page builder for Acquia’s open source product Mautic.
               </li>
               <li>Implemented a mono repo architecture enabling component and service sharing across multiple projects, thereby reducing code duplication by
                 ~30% among the four primary projects of Acquia.</li>
