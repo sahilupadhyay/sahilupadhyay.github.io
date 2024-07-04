@@ -3,6 +3,8 @@ import Map from "../../images/icons/map.png";
 import Email from "../../images/icons/email.png";
 import React from "../../images/icons/react.svg";
 import Resume from "../../images/icons/resume.png";
+import PDF from "../../Sahil_Upadhyay.pdf";
+
 function Contact() {
   return (
     <>
@@ -26,7 +28,7 @@ function Contact() {
                 </span>
                 <div className="contact__info">
                   <h3>Resume</h3>
-                  <a href="../../Sahil_Upadhyay.pdf" download>
+                  <a href={PDF} download>
                     Download Here
                   </a>
                 </div>
