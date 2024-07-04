@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.02a656ff.css",
-    "main.js": "/static/js/main.5fa580e1.js",
+    "main.js": "/static/js/main.95f3b269.js",
     "static/js/206.f3afeb4a.chunk.js": "/static/js/206.f3afeb4a.chunk.js",
     "static/media/promptopia.png": "/static/media/promptopia.a066c1892295528fefe6.png",
     "static/media/Spotify.png": "/static/media/Spotify.642c366a340303ee5a7e.png",
     "static/media/sahil.jpeg": "/static/media/sahil.af59a409d7248c349ff3.jpeg",
+    "static/media/Sahil_Upadhyay.pdf": "/static/media/Sahil_Upadhyay.1abccec83c4a3123dc75.pdf",
     "static/media/about-img.webp": "/static/media/about-img.62b47e7f183d4b4e9feb.webp",
     "static/media/map.png": "/static/media/map.73948584a92a3fc87a6f.png",
     "static/media/resume.png": "/static/media/resume.60c4f53d340d7c84130f.png",
@@ -26,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.02a656ff.css",
-    "static/js/main.5fa580e1.js"
+    "static/js/main.95f3b269.js"
   ]
 }
