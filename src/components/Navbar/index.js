@@ -1,7 +1,7 @@
 import { useState } from "react";
-import './navbar.style.scss';
-import XMark from '../../images/icons/xmark-solid.svg'
-import Staggeredbar from '../../images/icons/bars-staggered-solid.svg'
+import "./navbar.style.scss";
+import XMark from "../../images/icons/xmark-solid.svg";
+import Staggeredbar from "../../images/icons/bars-staggered-solid.svg";
 function Navbar() {
   const [hamburger, setHamburger] = useState(false);
 
@@ -33,7 +33,7 @@ function Navbar() {
             <a href="#qualification">Qualification</a>
           </li>
 
-      {/*    <li>
+          {/*    <li>
             <a href="#projects">Projects</a>
           </li>*/}
 
@@ -42,7 +42,13 @@ function Navbar() {
           </li>
 
           <li onClick={() => hamburgerMenu()}>
-            <img className='mobile-menu' src={Staggeredbar} alt='menu' width='25px' height='25px'/>
+            <img
+              className="mobile-menu"
+              src={Staggeredbar}
+              alt="menu"
+              width="25px"
+              height="25px"
+            />
           </li>
         </ul>
       </nav>
@@ -50,7 +56,7 @@ function Navbar() {
       {/* mobile nav */}
       <div className={`mobile-nav ${hamburger ? "open-menu" : "closed-menu"}`}>
         <span onClick={() => hamburgerMenu()}>
-          <img src={XMark} alt='closemenu' width='25px' height='25px'/>
+          <img src={XMark} alt="closemenu" width="25px" height="25px" />
         </span>
 
         <ul>
@@ -66,7 +72,7 @@ function Navbar() {
             <a href="#qualification">Qualification</a>
           </li>
 
-{/*
+          {/*
           <li onClick={() => hamburgerMenu()}>
             <a href="#projects">Projects</a>
           </li>

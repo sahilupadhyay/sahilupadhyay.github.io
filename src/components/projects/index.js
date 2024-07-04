@@ -1,45 +1,44 @@
-
 import ProBox from "../ProBox";
-import Spotify from "../../images/spotify.png";
+import Spotify from "../../images/Spotify.png";
 import Promptopia from "../../images/promptopia.png";
-import './style.scss';
+import "./style.scss";
 
 export function Projects() {
-    return (
-        <>
-            <section id="projects" className="project">
-                <div className="container">
-                    <div className="project-content">
-                        <p>portfolio</p>
-                        <h3>Each project is a unique piece of development 🧩</h3>
-                        <div className="projects-grid">
-                            <ProBox
-                                title="Spotify"
-                                img={Spotify}
-                                description="Fetch Spotify Playlists + Control Music playback with the Spotify API, User authentication with Spotify + NextAuth to persist user's logged in state! (Including how to use access & refresh oAuth JWT tokens), Style an awesome responsive UI with Tailwind CSS, using Recoil for state management (when switching playlists and songs)!"
-                                techno1="React"
-                                techno2="Tailwind CSS"
-                                techno3="SCSS"
-                                code="https://github.com/sahilupadhyay/spotify"
-                                demo="https://spotify-eight-rouge.vercel.app/"
-                                scrollY="-26%"
-                                icon="🚗"
-                            />
+  return (
+    <>
+      <section id="projects" className="project">
+        <div className="container">
+          <div className="project-content">
+            <p>portfolio</p>
+            <h3>Each project is a unique piece of development 🧩</h3>
+            <div className="projects-grid">
+              <ProBox
+                title="Spotify"
+                img={Spotify}
+                description="Fetch Spotify Playlists + Control Music playback with the Spotify API, User authentication with Spotify + NextAuth to persist user's logged in state! (Including how to use access & refresh oAuth JWT tokens), Style an awesome responsive UI with Tailwind CSS, using Recoil for state management (when switching playlists and songs)!"
+                techno1="React"
+                techno2="Tailwind CSS"
+                techno3="SCSS"
+                code="https://github.com/sahilupadhyay/spotify"
+                demo="https://spotify-eight-rouge.vercel.app/"
+                scrollY="-26%"
+                icon="🚗"
+              />
 
-                            <ProBox
-                              title="Promptopia"
-                              img={Promptopia}
-                              description="Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts."
-                              techno1="React"
-                              techno2="Next.Js"
-                              code="https://github.com/sahilupadhyay/Promptopia"
-                              demo="https://promptopia-blue.vercel.app//"
-                              scrollY="-35%"
-                              icon="🪙"
-                              cName="reversed-proj"
-                            />
+              <ProBox
+                title="Promptopia"
+                img={Promptopia}
+                description="Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts."
+                techno1="React"
+                techno2="Next.Js"
+                code="https://github.com/sahilupadhyay/Promptopia"
+                demo="https://promptopia-blue.vercel.app//"
+                scrollY="-35%"
+                icon="🪙"
+                cName="reversed-proj"
+              />
 
-{/*
+              {/*
                             <ProBox
                                 title="gymate"
                                 img={Gymate}
@@ -64,12 +63,12 @@ export function Projects() {
                                 icon="🛒"
                                 cName="reversed-proj"
                             />*/}
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    );
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
 export default Projects;

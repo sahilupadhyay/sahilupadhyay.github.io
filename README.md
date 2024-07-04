@@ -1,13 +1,11 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Sahil Upadhyay
-========================================================================================================================================
+# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Sahil Upadhyay
 
-I am Front End developer.
---------------------------
+## I am Front End developer.
 
-*   🌍  I'm based in India
-*   🖥️  See my portfolio at <a target="_blank" rel="noreferrer" href='https://sahilupadhyay.github.io/'>Portfolio</a>
-*   🧠  Currently learning React.Js
-*   🤝  I'm open to collaborating on interesting projects as a developer
+- 🌍 I'm based in India
+- 🖥️ See my portfolio at <a target="_blank" rel="noreferrer" href='https://sahilupadhyay.github.io/'>Portfolio</a>
+- 🧠 Currently learning React.Js
+- 🤝 I'm open to collaborating on interesting projects as a developer
 
 ### Skills
 

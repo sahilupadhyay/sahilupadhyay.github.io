@@ -66,24 +66,24 @@ body {
 .mobile-menu {
   cursor: pointer;
   display: none;
-  font-size: 2.3rem
+  font-size: 2.3rem;
 }
 
 .mobile-menu:hover {
   color: #147efb;
-  transition: all .3s
+  transition: all 0.3s;
 }
 
 @media (max-width: 900px) {
   .mobile-menu {
-    display:flex
+    display: flex;
   }
 }
 
 .closed-menu {
-  left: -100%!important
+  left: -100% !important;
 }
 
 .open-menu {
-  left: 0!important
+  left: 0 !important;
 }

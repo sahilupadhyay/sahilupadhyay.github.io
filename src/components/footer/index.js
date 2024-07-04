@@ -1,4 +1,6 @@
-import './footer.style.scss';
+import "./footer.style.scss";
+import { GitHub, Linkedin } from "react-feather";
+
 function Footer() {
   return (
     <>
@@ -13,17 +15,17 @@ function Footer() {
                 aria-label="linkedin"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/stefan-topalovic-dev/"
+                href="https://www.linkedin.com/in/sahilupadhyay0001/"
               >
-                <i className="fa-brands fa-linkedin"></i>
+                <Linkedin  color="white" />
               </a>
               <a
                 aria-label="github"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/stefvndev"
+                href="https://github.com/sahilupadhyay"
               >
-                <i className="fa-brands fa-github"></i>
+                <GitHub color="white" />
               </a>
             </div>
           </div>

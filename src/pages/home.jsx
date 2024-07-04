@@ -11,12 +11,12 @@ function Home() {
   return (
     <>
       <Navbar />
-        <Landing />
-        <AboutMe />
-        <Qualification/>
-        <Project />
-        <Contact />
-        <Footer />
+      <Landing />
+      <AboutMe />
+      <Qualification />
+      <Project />
+      <Contact />
+      <Footer />
     </>
   );
 }
