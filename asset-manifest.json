@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9d977d4.css",
-    "main.js": "/static/js/main.3a1137a8.js",
-    "static/js/27.bd61080c.chunk.js": "/static/js/27.bd61080c.chunk.js",
+    "main.css": "/static/css/main.02a656ff.css",
+    "main.js": "/static/js/main.5fa580e1.js",
+    "static/js/206.f3afeb4a.chunk.js": "/static/js/206.f3afeb4a.chunk.js",
     "static/media/promptopia.png": "/static/media/promptopia.a066c1892295528fefe6.png",
-    "static/media/spotify.png": "/static/media/spotify.642c366a340303ee5a7e.png",
+    "static/media/Spotify.png": "/static/media/Spotify.642c366a340303ee5a7e.png",
     "static/media/sahil.jpeg": "/static/media/sahil.af59a409d7248c349ff3.jpeg",
     "static/media/about-img.webp": "/static/media/about-img.62b47e7f183d4b4e9feb.webp",
     "static/media/map.png": "/static/media/map.73948584a92a3fc87a6f.png",
+    "static/media/resume.png": "/static/media/resume.60c4f53d340d7c84130f.png",
     "static/media/waving.png": "/static/media/waving.1bae5fcfb51082b5c2b4.png",
     "static/media/working-emoji.png": "/static/media/working-emoji.c5325f52b5be329995a5.png",
     "static/media/email.png": "/static/media/email.bd54f72f8dd0e12af739.png",
@@ -24,7 +25,7 @@
     "static/media/html.svg": "/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg"
   },
   "entrypoints": [
-    "static/css/main.d9d977d4.css",
-    "static/js/main.3a1137a8.js"
+    "static/css/main.02a656ff.css",
+    "static/js/main.5fa580e1.js"
   ]
 }
